@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-
+import { FaBookmark } from "react-icons/fa";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
@@ -48,7 +48,12 @@ const SwiperSlider = ({ foods }) => {
                                 <h3 className='food-slider-foodName'>{food.foodName}</h3>
                                 <p className='food-slider-brandName'>{food.brandName}</p>
                                 <p className='food-slider-price'>{food.price}</p>
-
+                                <div className="bookmark-rating-container">
+                                    <div className="bookmark-icon">
+                                        <FaBookmark />
+                                    </div>
+                                    <div className="rating">{food.rating}</div>
+                                </div>
                                 <div>
                                     <button className="add-to-cart-btn">Add to cart</button>
                                 </div>

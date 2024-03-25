@@ -22,6 +22,41 @@
     align-items: center;
     background: #FFF;
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+
+.bookmark-rating-container {
+    position: relative;
+    display: inline-block;
+}
+
+.bookmark-icon {
+    position: relative;
+    color: #F2BC57;
+    position: absolute;
+    top: -180px;
+    left: 260px;
+    width: 40px;
+    height: 40px;
+    background: url('path/to/bookmark-icon.png') no-repeat center center;
+    background-size: cover;
+    font-size: 25px;
+}
+
+.rating {
+    position: absolute;
+    top: -170px;
+    left: 272px;
+    transform: translate(-50%, -50%);
+    /* background-color: #F72D57; */
+    color: black;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
 }
 
 .food-slider-image {
