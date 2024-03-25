@@ -5,7 +5,7 @@
 
 .popular-categories-text-title {
     text-align: center;
-    margin-bottom: 31px;
+    margin-bottom: 50px;
     color: #3F3F3F;
     font-family: Poppins;
     font-size: 48px;
@@ -16,6 +16,7 @@
 
 .food-slider-card-container {
     border-radius: 5px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
