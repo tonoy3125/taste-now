@@ -1,0 +1,256 @@
+/* nav element */
+.nav-container {
+    margin: 24px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* list element */
+.list-container {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/* list tag */
+.list {
+    text-decoration: none;
+    list-style: none;
+    color: #3F3F3F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+
+}
+
+/* website title styling */
+.website-title {
+    color: #F72D57;
+    text-align: center;
+    font-family: Praise;
+    font-size: 48px;
+
+}
+
+
+/* active route styling */
+.active {
+    color: #F72D57;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+/* pending route styling */
+.pending {
+    color: #3F3F3F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+/* cart icon styling */
+.cart-icon {
+    font-size: 30px;
+    color: #3F3F3F;
+}
+
+
+/* sign up button styling */
+.sign-up-btn {
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    padding: 9px 28px;
+    border-radius: 5px;
+    background: #F72D57;
+}
+
+
+/* responsive part */
+
+/* For small devices */
+@media screen and (max-width: 1023px) {
+    .nav-container {
+        display: none;
+    }
+
+    .smallDevices-nav-container {
+        display: flex;
+        justify-content: space-around;
+        margin: 18px 0px;
+        padding: 0px 20px;
+        position: relative;
+        width: 100%;
+    }
+
+    .small-device-navlinks {
+        position: absolute;
+        z-index: 10;
+        width: 100%;
+        margin-top: -40px;
+    }
+
+    .small-device-navlinks {
+        width: 100%;
+        background: #F72D57;
+    }
+
+    .title-menu-container {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        width: 100%;
+    }
+
+    /* website title styling */
+    .website-title {
+        color: #F72D57;
+        font-family: Praise;
+        font-size: 32px;
+    }
+
+    .menu-button-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        position: relative;
+
+    }
+
+    .menu-button {
+        border: none;
+        background: none;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .small-device-menu-title {
+        color: #FFF;
+        text-align: center;
+        font-family: Praise;
+        font-size: 55px;
+        padding-top: 74px;
+        text-align: center;
+        padding-bottom: 126px;
+        white-space: nowrap;
+    }
+
+    .border-container {
+        content: '';
+        border: 2px solid white;
+        inset: 0;
+    }
+
+    .small-device-links-container {
+        display: flex;
+        flex-direction: column;
+        gap: 61px;
+        padding-top: 61px;
+    }
+
+    .cross-btn-container {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 23px;
+        padding-right: 26px;
+    }
+
+    .cross-btn {
+        border: none;
+        background: none;
+    }
+
+    .cross-btn-icon {
+        font-size: 36px;
+        color: #FFF
+    }
+
+
+    /* sign up button styling */
+    .sign-up-btn {
+        color: #F72D57;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 16px;
+        border-radius: 5px;
+        background: #FFF;
+        padding-bottom: 136px;
+        padding: 9px 17px;
+        text-decoration: none !important;
+    }
+
+    /* active route styling */
+    .active {
+        color: #fff;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 30px;
+        font-weight: 600;
+        padding-top: 61px;
+
+    }
+
+    /* pending route styling */
+    .pending {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 22px;
+        padding-top: 61px;
+        /* 73.333% */
+        letter-spacing: 1.8px;
+        text-transform: uppercase;
+    }
+
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1050px) {
+    .smallDevices-nav-container {
+        display: none;
+    }
+
+    .nav-container {
+        margin: 24px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    /* list element */
+    .list-container {
+        display: flex;
+        gap: 48px;
+        align-items: center;
+        list-style: none;
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 1051px) {
+    .smallDevices-nav-container {
+        display: none;
+    }
+
+}
