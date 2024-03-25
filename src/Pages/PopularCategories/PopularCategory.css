@@ -40,13 +40,13 @@
     height: 40px;
     background: url('path/to/bookmark-icon.png') no-repeat center center;
     background-size: cover;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .rating {
     position: absolute;
     top: -170px;
-    left: 272px;
+    left: 275px;
     transform: translate(-50%, -50%);
     /* background-color: #F72D57; */
     color: black;
@@ -181,6 +181,17 @@
     .popular-categories-container {
         margin: 0px 12px;
 
+    }
+
+    .bookmark-icon {
+        font-size: 30px;
+        top: -180px;
+        left: 255px;
+    }
+
+    .rating {
+        top: -170px;
+        left: 270px;
     }
 
     .tabs-heading {
