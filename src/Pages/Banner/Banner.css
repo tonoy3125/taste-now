@@ -1,0 +1,108 @@
+.banner-container {
+    margin: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    height: 600px;
+}
+
+.banner-text-title {
+    color: #3F3F3F;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.important-text {
+    color: #F72D57;
+}
+
+.banner-text-description {
+    color: #3F3F3F;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 70%;
+    margin-top: 24px;
+
+
+}
+
+@media screen and (min-width: 375px) and (max-width:1023px) {
+    .banner-container {
+        flex-direction: column;
+        margin: 55px 22px;
+    }
+
+    .banner-image {
+        width: 370px;
+        flex-shrink: 0;
+    }
+
+    .banner-text-title {
+        color: #3F3F3F;
+        font-family: Poppins;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .important-text {
+        color: #F72D57;
+        font-size: 30px;
+    }
+
+    .banner-text-description {
+        width: 100%;
+    }
+
+
+
+
+}
+
+@media screen and (min-width:1024px) and (max-width:1500px) {
+
+    .banner-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-container {
+        margin: 0px 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        height: 600px;
+        flex-grow: 1;
+    }
+
+    .banner-image {
+        width: 560px;
+        flex-shrink: 0;
+    }
+
+    .banner-text-title {
+        color: #3F3F3F;
+        font-family: Poppins;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .banner-text-description {
+        width: 100%;
+    }
+
+
+
+}
