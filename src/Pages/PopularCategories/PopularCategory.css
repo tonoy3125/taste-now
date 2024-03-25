@@ -1,0 +1,186 @@
+.popular-categories-container {
+    margin: 0px 100px;
+
+}
+
+.popular-categories-text-title {
+    text-align: center;
+    margin-bottom: 31px;
+    color: #3F3F3F;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.food-slider-card-container {
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
+.food-slider-image {
+    width: 219px;
+    height: 122px;
+    flex-shrink: 0;
+    display: flex;
+    justify-items: center;
+}
+
+.food-slider-foodName {
+    color: #3F3F3F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.food-slider-brandName {
+    color: #3F3F3F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.food-slider-price {
+    color: #3F3F3F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.add-to-cart-btn {
+    color: #FFF;
+    width: 100%;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 7px 22px;
+    border-radius: 5px;
+    background: #F72D57;
+    border: none;
+    margin: 24px auto 20px;
+}
+
+/* Pagination styles */
+.swiper-pagination {
+    position: absolute;
+
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    /* Adjust as needed */
+}
+
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    opacity: 0.5;
+    border-radius: 50%;
+    margin: 10px 5px;
+    /* Adjust space between bullets */
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+}
+
+
+
+/* tabs */
+.tabs-heading {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 20px;
+}
+
+.active-tab {
+    display: flex;
+    gap: 20px;
+    border-radius: 5px;
+    background: #F72D57;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    padding: 21px;
+    font-family: Poppins;
+    font-size: 24px;
+}
+
+.inactive-tabs {
+    display: flex;
+    gap: 20px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+    align-items: center;
+    justify-content: center;
+    padding: 21px;
+    color: #F72D57;
+    font-family: Poppins;
+    font-size: 24px;
+
+}
+
+@media screen and (min-width: 375px) and (max-width:1023px) {
+    .popular-categories-container {
+        margin: 0px 12px;
+
+    }
+
+    .tabs-heading {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5px;
+        margin-bottom: 20px;
+    }
+
+    .active-tab {
+        display: flex;
+        gap: 5px;
+        border-radius: 5px;
+        background: #F72D57;
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+        color: #fff;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        font-family: Poppins;
+        font-size: 22px;
+    }
+
+    .inactive-tabs {
+        display: flex;
+        gap: 10px;
+        border-radius: 5px;
+        background: #FFF;
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        color: #F72D57;
+        font-family: Poppins;
+        font-size: 22px;
+
+    }
+}
