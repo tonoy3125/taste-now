@@ -59,7 +59,7 @@ const Navbar = () => {
                     <div className="website-title">Taste Now</div>
                 </div>
                 {/* cart icon */}
-                <div>
+                <div className="shopping-icon-container">
                     <AiOutlineShoppingCart className="cart-icon"></AiOutlineShoppingCart>
                 </div>
             </div>
